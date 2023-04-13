@@ -2,11 +2,15 @@ from flask import Flask, render_template, request
 import os
 import aiml
 from autocorrect import Speller
+#import pyfestival as p
 
 app = Flask(__name__)
 
 BRAIN_FILE="./pretrained_model/aiml_pretrained_model.dump"
 k = aiml.Kernel()
+
+#p.init()
+##pyfestival.close()
 
 if os.path.exists(BRAIN_FILE):
     print("Loading from brain file: " + BRAIN_FILE)
@@ -30,6 +34,7 @@ def get_bot_response():
     question = " ".join(query)
     response = k.respond(question)
     if response:
+        os.system('echo "' + response + '" | festival --tts')
         return (str(response))
     else:
         return (str(":)"))
