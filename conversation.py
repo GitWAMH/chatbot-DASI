@@ -1,6 +1,6 @@
 import os
 import aiml
-from autocorrect import spell
+from autocorrect import Speller
 
 BRAIN_FILE="./pretrained_model/aiml_pretrained_model.dump"
 
@@ -18,7 +18,7 @@ else:
 
 while True:
     query = input("User > ")
-    query = [spell(w) for w in (query.split())]
+    query = [Speller().autocorrect_word(w) for w in (query.split())]
     question = " ".join(query)
     response = k.respond(question)
     if response:
