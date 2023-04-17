@@ -749,8 +749,9 @@ Website: http://emilcarlsson.se/
       <div class="wrap">
           <div id="userInput">
               <input id="textInput" type="text" name="msg" placeholder="Escriba aquí..." />
-              <i class="fa fa-paperclip attachment" aria-hidden="true"></i>
+              <!--<i class="fa fa-paperclip attachment" aria-hidden="true"></i>-->
               <button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+              <button class="submit-microphone"><i class="fa fa-microphone" aria-hidden="true"></i></button>
           </div>
       </div>
     </div>
@@ -828,6 +829,17 @@ function getBotResponse() {
 
 $('.submit').click(function() {
   newMessage();
+});
+
+$('.submit-microphone').mousedown(function() {
+  $(".submit-microphone").css("background-color", "white");
+  $(".fa-microphone").css("color", "#32465a");
+});
+
+$('.submit-microphone').mouseup(function() {
+  $(".submit-microphone").removeAttr("style");
+  $(".fa-microphone").removeAttr("style");
+  //newMessage();
 });
 
 $(window).on('keydown', function(e) {
