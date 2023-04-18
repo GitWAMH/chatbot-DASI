@@ -661,6 +661,8 @@
   opacity: 1;
 }
 #frame .content .message-input .wrap button {
+  display: inline-block; /* Agregado */
+  vertical-align: middle; /* Agregado */
   float: right;
   border: none;
   width: 50px;
@@ -679,6 +681,15 @@
 }
 #frame .content .message-input .wrap button:focus {
   outline: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-microphone, .submit {
+  margin: 0 0.5px;
 }
 </style></head><body>
 <!--
@@ -749,8 +760,11 @@ Website: http://emilcarlsson.se/
       <div class="wrap">
           <div id="userInput">
               <input id="textInput" type="text" name="msg" placeholder="Escriba aquí..." />
-              <i class="fa fa-paperclip attachment" aria-hidden="true"></i>
-              <button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+              <!--<i class="fa fa-paperclip attachment" aria-hidden="true"></i>-->
+              <div class="button-container">
+                <button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                <button class="submit-microphone"><i class="fa fa-microphone" aria-hidden="true"></i></button>
+              </div>
           </div>
       </div>
     </div>
@@ -828,6 +842,17 @@ function getBotResponse() {
 
 $('.submit').click(function() {
   newMessage();
+});
+
+$('.submit-microphone').mousedown(function() {
+  $(".submit-microphone").css("background-color", "white");
+  $(".fa-microphone").css("color", "#32465a");
+});
+
+$('.submit-microphone').mouseup(function() {
+  $(".submit-microphone").removeAttr("style");
+  $(".fa-microphone").removeAttr("style");
+  //newMessage();
 });
 
 $(window).on('keydown', function(e) {
