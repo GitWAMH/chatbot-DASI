@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<aiml version="2.0">
+
+
+<category>
+    <pattern>HOLA</pattern>
+    <template>¡Hola! . Como puedo ayudarte.</template>
+</category>
+<category><pattern>BUENAS</pattern><template>¡Buen Día! . Como puedo ayudarte.</template></category>
+<category><pattern>BUEN DÍA</pattern><template>¡Hola! . Como puedo ayudarte.</template></category>
+<category><pattern>BUENA TARDE</pattern><template>¡Buena tarde! . Como puedo ayudarte.</template></category>
+<category><pattern>BUENA NOCHE</pattern><template>¡Buena noche! . Como puedo ayudarte.</template></category>
+<category><pattern>BUENOS DÍAS</pattern><template>¡Buenos Días! . Como puedo ayudarte.</template></category>
+<category><pattern>BUENAS TARDES</pattern><template>¡Buenas tardes! . Como puedo ayudarte.</template></category>
+<category><pattern>BUENAS NOCHES</pattern><template>¡Buenas noches! . Como puedo ayudarte.</template></category>
+<category><pattern>¿CÓMO ESTÁS?</pattern><template>Muy bien, gracias pr preguntar. Como puedo ayudarte.</template></category>
+<category><pattern>¿QUÉ TAL?</pattern><template>Muy bien, gracias pr preguntar. Como puedo ayudarte.</template></category>
+<category><pattern>¿QUÉ HAY?</pattern><template>Bien, gracias pr preguntar. Como puedo ayudarte.</template></category>
+<category><pattern>¿CÓMO VA TODO?</pattern><template>Todo Muy bien, gracias pr preguntar. Como puedo ayudarte.</template></category>
+<category><pattern>SALUDOS</pattern><template>¡Hola! . Como puedo ayudarte.</template></category>
+<category><pattern>MI NOMBRE ES *</pattern><template>Encantodo <set name="username"><star/></set>! Soy  un asistente de preguntas frecuentes del Parque del Café, ¿en qué puedo ayudarte hoy?</template></category>
+<category><pattern>SOY *</pattern><template>¡Hola!  <set name="username"><star/></set> Como puedo ayudarte.</template></category>
+<category><pattern>YO SOY *</pattern><template>¡Hola!  <set name="username"><star/></set> Como puedo ayudarte.</template></category>
+<category><pattern>ME LLAMO *</pattern><template>Encantodo <set name="username"><star/></set>! Soy  un asistente de preguntas frecuentes del Parque del Café, ¿en qué puedo ayudarte hoy?</template></category>
+<category><pattern>AQUÍ *</pattern><template>¡Hola!  <set name="username"><star/></set> Como puedo ayudarte.</template></category>
+<category><pattern>HOLA, SOY *</pattern><template>¡Hola!  <set name="username"><star/></set> Como puedo ayudarte.</template></category>
+<category><pattern>HOLA, ME LLAMO *</pattern><template>Encantodo <set name="username"><star/></set>! Soy  un asistente de preguntas frecuentes del Parque del Café, ¿en qué puedo ayudarte hoy?</template></category>
+<category><pattern>HOLA, AQUÍ*</pattern><template>¡Hola!  <set name="username"><star/></set> Como puedo ayudarte.</template></category>
+<category><pattern>HOLA, YO SOY *</pattern><template>¡Hola!  <set name="username"><star/></set> Como puedo ayudarte.</template></category>
+<category><pattern>QUIEN ERES</pattern><template>Soy un asistente virtual de preguntas frecuentes</template></category>
+<category><pattern>*</pattern><template>Hola! En el menor tiempo posible nos comunicaremos  contigo y resolveremos todas tus inquietudes. También puedes encontrar la información que necesitas en nuestra página web www.parquedelcafe.co</template></category>
+
+
+<category>
+    <pattern>HOLA ^</pattern>
+    <template> ¡Hola! ¿Cómo estás?</template>
+  </category>
+  
+  <category>
+    <pattern>BUENAS TARDES</pattern>
+    <template> Buenas <star/> ¿Cómo puedo ayudarte hoy?</template>
+  </category>
+  
+  <category>
+    <pattern>CÓMO ESTÁS ^</pattern>
+    <template> Estoy bien, gracias por preguntar. ¿Y tú?</template>
+  </category>
+  
+  <category>
+    <pattern>HEY DE NUEVO</pattern>
+    <template> ¡Hola de nuevo! ¿En qué puedo ayudarte hoy?</template>
+  </category>
+  
+  <category>
+    <pattern>BUEN DÍA</pattern>
+    <template> ¡Buen día! ¿En qué puedo ayudarte hoy?</template>
+  </category>
+  
+  <category>
+    <pattern>SALUDOS</pattern>
+    <template> ¡Saludos! ¿En qué puedo ayudarte hoy?</template>
+  </category>
+  
+  <category>
+    <pattern>ADIÓS</pattern>
+    <template> ¡Hasta luego! Que tengas un buen día.</template>
+  </category>
+  
+  <category>
+    <pattern>HASTA PRONTO</pattern>
+    <template> ¡Hasta pronto! Espero verte de nuevo pronto.</template>
+  </category>
+  
+  <category>
+    <pattern>NOS VEMOS LUEGO</pattern>
+    <template> ¡Nos vemos luego! Cuídate.</template>
+  </category>
+  
+  <category>
+    <pattern>HASTA LA VISTA</pattern>
+    <template> ¡Hasta la vista! Que tengas un buen día.</template>
+  </category>
+  
+  <category>
+    <pattern>CHAO</pattern>
+    <template> ¡Chao! Que tengas un buen día.</template>
+  </category>
+  
+   <category>
+    <pattern>BIEN</pattern>
+    <template> Me alegra oír eso. ¿Qué has hecho hoy?</template>
+  </category>
+  
+  <category>
+    <pattern>MAL</pattern>
+    <template> Lo siento por oír eso. ¿Puedo ayudarte de alguna manera?</template>
+  </category>
+  
+  <category>
+    <pattern>¿QUIÉN ERES?</pattern>
+    <template> Soy un chatbot programado para conversar contigo. ¿Y tú, quién eres?</template>
+  </category>
+
+</aiml>
