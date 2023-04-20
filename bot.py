@@ -3,6 +3,8 @@ import os
 import aiml
 from autocorrect import Speller
 #import pyfestival as p
+import pyttsx3
+#from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 
@@ -11,7 +13,16 @@ k = aiml.Kernel()
 
 #p.init()
 ##pyfestival.close()
-
+'''
+html = '<p>Hola! Soy CoffeeBot, tu asistente virtual del Parque Del Café. Estoy aquí para darte una mano y resolver las dudas que puedas tener!</p>'
+soup = BeautifulSoup(html, 'html.parser')
+texto = soup.get_text()
+'''
+engine = pyttsx3.init()
+'''
+engine.setProperty('voice', 'spanish')
+engine.say(texto)
+'''
 if os.path.exists(BRAIN_FILE):
     print("Loading from brain file: " + BRAIN_FILE)
     k.loadBrain(BRAIN_FILE)
@@ -34,10 +45,15 @@ def get_bot_response():
     #question = " ".join(query)
     response = k.respond(query)
     if response:
-        os.system('echo "' + response + '" | festival --tts')
+        #os.system('echo "' + response + '" | festival --tts')
+        engine.say(response)
+        engine.runAndWait()
         return (str(response))
     else:
-        return (str("Hola! En el menor tiempo posible nos comunicaremos  contigo y resolveremos todas tus inquietudes. También puedes encontrar la información que necesitas en nuestra página web www.parquedelcafe.co"))
+        response = "Hola! En el menor tiempo posible nos comunicaremos  contigo y resolveremos todas tus inquietudes. También puedes encontrar la información que necesitas en nuestra página web www.parquedelcafe.co"
+        engine.say(str(response))
+        engine.runAndWait()
+        return (str(response))
 
 
 if __name__ == "__main__":
