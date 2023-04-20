@@ -23,6 +23,8 @@ engine = pyttsx3.init()
 engine.setProperty('voice', 'spanish')
 engine.say(texto)
 '''
+engine.setProperty('voice', 'spanish')
+
 if os.path.exists(BRAIN_FILE):
     print("Loading from brain file: " + BRAIN_FILE)
     k.loadBrain(BRAIN_FILE)

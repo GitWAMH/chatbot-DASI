@@ -15,7 +15,7 @@
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet' type='text/css'>
 
 <script src="https://use.typekit.net/hoy3lrg.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'><link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
 <style class="cp-pen-styles">body {
@@ -808,8 +808,8 @@ $("#status-options ul li").click(function() {
   $("#status-options").removeClass("active");
 });
 
-function newMessage() {
-      message = $(".message-input input").val();
+function newMessage(mensaje = undefined) {
+      message = (mensaje != undefined) ? mensaje : '';
       if($.trim(message) == '') {
         return false;
       }
@@ -843,23 +843,92 @@ function getBotResponse() {
     }
 
 $('.submit').click(function() {
-  newMessage();
+  newMessage($(".message-input input").val());
 });
 
-$('.submit-microphone').on('mousedown touchstart', function() {
+$(document).ready(function () {
+    var recognition = new webkitSpeechRecognition();
+    recognition.continuous = true;
+    recognition.lang = "es-ES";
+
+    var commands = {
+      '*val': function(val) {
+          console.log('Se detectó la palabra:', val);
+          // Aquí puedes llamar a cualquier función que quieras ejecutar cuando se detecte cualquier palabra
+      }
+    };
+
+    var grammar = '#JSGF V1.0; grammar commands; public <command> = ' + Object.keys(commands).join(' | ') + ' ;';
+    var recognitionList = new webkitSpeechGrammarList();
+    recognitionList.addFromString(grammar, 1);
+    recognition.grammars = recognitionList;
+    recognition.onresult = function(event) {
+        var transcript = event.results[0][0].transcript.trim().toLowerCase();
+        console.log('Transcript:', transcript);
+        if(transcript == undefined || transcript == null || transcript == NaN) {
+          transcript = undefined;
+        }
+        newMessage(transcript);
+        /*
+        var command = transcript.split(' ')[0];
+        console.log('Command:', command);
+        if (commands[command]) {
+            commands[command](transcript.substring(command.length + 1));
+        }
+        */
+    };
+
+    $(".submit-microphone").on("mousedown", function () {      
+        $(".submit-microphone").css("background-color", "white");
+        $(".fa-microphone").css("color", "#a71d22");
+        recognition.start();
+    });
+
+    $(".submit-microphone").on("mouseup", function () {      
+        $(".submit-microphone").removeAttr("style");
+        $(".fa-microphone").removeAttr("style");
+        recognition.stop();
+    });
+
+    recognition.onstart = function () {
+        console.log("Recognition started");
+    };
+
+    recognition.onend = function () {
+        console.log("Recognition ended");
+    };
+
+    recognition.onerror = function (event) {
+        console.log("Error: " + event.error);
+    };
+
+    // Ejemplo de detección de comandos
+    /*
+    recognition.addCommands({
+      '*val': function(val) {
+          console.log('Se detectó la palabra:', val);
+          // Aquí puedes llamar a cualquier función que quieras ejecutar cuando se detecte cualquier palabra
+      }
+    });*/
+
+    //recognition.start();
+});
+/*
+$('.submit-microphone').on('mousedown', function() {
   $(".submit-microphone").css("background-color", "white");
-  $(".fa-microphone").css("color", "#32465a");
+  $(".fa-microphone").css("color", "#a71d22");
+
 });
 
-$('.submit-microphone').on('mousedown touchend', function() {
+$('.submit-microphone').on('mouseup', function() {
   $(".submit-microphone").removeAttr("style");
   $(".fa-microphone").removeAttr("style");
   //newMessage();
-});
+});*/
 
 $(window).on('keydown', function(e) {
   if (e.which == 13) {
-    newMessage();
+    newMessage($(".message-input input").val());
     return false;
   }
 });
