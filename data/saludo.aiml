@@ -28,7 +28,7 @@
 <category><pattern>HOLA, AQUÍ*</pattern><template>¡Hola!  <set name="username"><star/></set> Como puedo ayudarte.</template></category>
 <category><pattern>HOLA, YO SOY *</pattern><template>¡Hola!  <set name="username"><star/></set> Como puedo ayudarte.</template></category>
 <category><pattern>QUIEN ERES</pattern><template>Soy un asistente virtual de preguntas frecuentes</template></category>
-<category><pattern>*</pattern><template>Hola! En el menor tiempo posible nos comunicaremos  contigo y resolveremos todas tus inquietudes. También puedes encontrar la información que necesitas en nuestra página web www.parquedelcafe.co</template></category>
+
 
 
 <category>

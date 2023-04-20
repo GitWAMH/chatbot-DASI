@@ -30,18 +30,18 @@ def home():
 @app.route("/get")
 def get_bot_response():
     query = request.args.get('msg')
-    query = [Speller().autocorrect_word(w) for w in (query.split())]
-    question = " ".join(query)
-    response = k.respond(question)
+    #query = [Speller().autocorrect_word(w) for w in (query.split())]
+    #question = " ".join(query)
+    response = k.respond(query)
     if response:
         os.system('echo "' + response + '" | festival --tts')
         return (str(response))
     else:
-        return (str(":)"))
+        return (str("Hola! En el menor tiempo posible nos comunicaremos  contigo y resolveremos todas tus inquietudes. También puedes encontrar la información que necesitas en nuestra página web www.parquedelcafe.co"))
 
 
 if __name__ == "__main__":
     # app.run()
-    app.run(host='0.0.0.0', port='5000')
+    app.run(host='0.0.0.0', port='5001')
 
 
