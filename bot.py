@@ -2,9 +2,9 @@ from flask import Flask, render_template, request
 import os
 import aiml
 from autocorrect import Speller
-from AppKit import NSSpeechSynthesizer
-import pyttsx3
-#from bs4 import BeautifulSoup
+from AppKit import NSSpeechSynthesizer #Habilitar para MAC
+#import pyttsx3  //Habilitar para OS Windows
+#from bs4 import BeautifulSoup 
 
 app = Flask(__name__)
 
@@ -13,17 +13,18 @@ k = aiml.Kernel()
 
 synthesizer = NSSpeechSynthesizer.alloc().init()
 synthesizer.setRate_(90)
+
 '''
 html = '<p>Hola! Soy CoffeeBot, tu asistente virtual del Parque Del Café. Estoy aquí para darte una mano y resolver las dudas que puedas tener!</p>'
 soup = BeautifulSoup(html, 'html.parser')
 texto = soup.get_text()
 '''
-engine = pyttsx3.init()
+#engine = pyttsx3.init()
 '''
 engine.setProperty('voice', 'spanish')
 engine.say(texto)
 '''
-engine.setProperty('voice', 'spanish')
+#engine.setProperty('voice', 'spanish')
 
 if os.path.exists(BRAIN_FILE):
     print("Loading from brain file: " + BRAIN_FILE)
@@ -55,20 +56,18 @@ def get_bot_response():
     query= pr(query)
     #query = [Speller().autocorrect_word(w) for w in (query.split())]
     print(query)
-    question = " ".join(query)
-    print(question)
     response = k.respond(query)
     if response:
         synthesizer.startSpeakingString_(response)
         #os.system('echo "' + response + '" | festival --tts')
-        engine.say(response)
-        engine.runAndWait()
+        #engine.say(response)
+        #engine.runAndWait()
         
         return (str(response))
     else:
         response = "Hola! En el menor tiempo posible nos comunicaremos  contigo y resolveremos todas tus inquietudes. También puedes encontrar la información que necesitas en nuestra página web www.parquedelcafe.co"
-        engine.say(str(response))
-        engine.runAndWait()
+        #engine.say(str(response))
+        #engine.runAndWait()
         return (str(response))
 
 
