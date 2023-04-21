@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <aiml version="2.0">
-
-<category>
-<pattern>Valor de las entradas</pattern>
-<template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+<category><pattern>VALOR DE LAS ENTRADAS</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -12,11 +9,8 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*
-</template>
-</category>
-
-"<category><pattern>PRECIO DE LA ENTRADA</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+*No contamos con taquillas habilitadas*</template></category>
+<category><pattern>PRECIO DE LA ENTRADA</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -25,8 +19,8 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
-"<category><pattern>CUANTO CUESTA LA ENTRADA</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+*No contamos con taquillas habilitadas*</template></category>
+<category><pattern>CUANTO CUESTA LA ENTRADA</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -35,8 +29,8 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
-"<category><pattern>Valor de la entrada por persona y a cuantas atracciones tiene derecho la persona.</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+*No contamos con taquillas habilitadas*</template></category>
+<category><pattern>VALOR DE LA ENTRADA POR PERSONA Y A CUANTAS ATRACCIONES TIENE DERECHO LA PERSONA.</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -45,9 +39,9 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
-<category><pattern>menos atracciones </pattern><template>Puedes solicitar tu cotización en Visitas institucionales o al teléfono (57) (606) 7 417 417</template></category>
-"<category><pattern>ENTRDA</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+*No contamos con taquillas habilitadas*</template></category>
+<category><pattern>MENOS ATRACCIONES </pattern><template>Puedes solicitar tu cotización en Visitas institucionales o al teléfono (57) (606) 7 417 417</template></category>
+<category><pattern>ENTRDA</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -56,8 +50,8 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
-"<category><pattern>TIQUETE</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+*No contamos con taquillas habilitadas*</template></category>
+<category><pattern>TIQUETE</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -66,8 +60,8 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
-"<category><pattern>TICKET</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+*No contamos con taquillas habilitadas*</template></category>
+<category><pattern>TICKET</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -76,8 +70,8 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
-"<category><pattern>precio la entrada</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+*No contamos con taquillas habilitadas*</template></category>
+<category><pattern>PRECIO LA ENTRADA</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -86,13 +80,13 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
+*No contamos con taquillas habilitadas*</template></category>
 <category><pattern>TIENEN COMBENIO</pattern><template>Puedes solicitar tu cotización en Visitas institucionales o al teléfono (57) (606) 7 417 417</template></category>
 <category><pattern>PAQUETES</pattern><template>Te invitamos a conocer y adquirir nuestros pasaportes a través de nuestro sitio web www.parquedelcafe.co; allí encontrarás información acerca de nuestros pasaportes; además, aseguras tu cupo y obtienes descuento en tu compra.</template></category>
 <category><pattern>GRUPO</pattern><template>Puedes solicitar tu cotización en Visitas institucionales o al teléfono (57) (606) 7 417 417</template></category>
 <category><pattern>GRUPOS</pattern><template>Puedes solicitar tu cotización en Visitas institucionales o al teléfono (57) (606) 7 417 417</template></category>
-<category><pattern>tienen descuentos</pattern><template>Te invitamos a conocer y adquirir nuestros pasaportes a través de nuestro sitio web www.parquedelcafe.co; allí encontrarás información acerca de nuestros pasaportes; además, aseguras tu cupo y obtienes descuento en tu compra.</template></category>
-"<category><pattern>Tiene convenio</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+<category><pattern>TIENEN DESCUENTOS</pattern><template>Te invitamos a conocer y adquirir nuestros pasaportes a través de nuestro sitio web www.parquedelcafe.co; allí encontrarás información acerca de nuestros pasaportes; además, aseguras tu cupo y obtienes descuento en tu compra.</template></category>
+<category><pattern>TIENE CONVENIO</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -101,21 +95,21 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
+*No contamos con taquillas habilitadas*</template></category>
 <category><pattern>NIÑO</pattern><template>Si la estatura es inferior a 90cm. ingresa y disfruta gratis de nuestro Parque.</template></category>
 <category><pattern>NIÑOS</pattern><template>Si la estatura es inferior a 90cm. ingresa y disfruta gratis de nuestro Parque.</template></category>
 <category><pattern>NIÑAS</pattern><template>Si la estatura es inferior a 90cm. ingresa y disfruta gratis de nuestro Parque.</template></category>
 <category><pattern>NIÑA</pattern><template>Si la estatura es inferior a 90cm. ingresa y disfruta gratis de nuestro Parque.</template></category>
-<category><pattern>Tengo algún descuento</pattern><template>Te invitamos a conocer y adquirir nuestros pasaportes a través de nuestro sitio web www.parquedelcafe.co; allí encontrarás información acerca de nuestros pasaportes; además, aseguras tu cupo y obtienes descuento en tu compra.</template></category>
-<category><pattern>cumple años</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
+<category><pattern>TENGO ALGÚN DESCUENTO</pattern><template>Te invitamos a conocer y adquirir nuestros pasaportes a través de nuestro sitio web www.parquedelcafe.co; allí encontrarás información acerca de nuestros pasaportes; además, aseguras tu cupo y obtienes descuento en tu compra.</template></category>
+<category><pattern>CUMPLEN AÑOS</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
 <category><pattern>CUMPLO AÑOS</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
 <category><pattern>CUMPLE AÑOS</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
 <category><pattern>CUMPLIENDO AÑOS</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
 <category><pattern>CUMPLI AÑOS</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
 <category><pattern>DESCUENTO</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
-<category><pattern>mi cumpleaños</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
-<category><pattern>cumpleaños</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
-"<category><pattern>adulto</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+<category><pattern>MI CUMPLEAÑOS</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
+<category><pattern>CUMPLEAÑOS</pattern><template>Si nos visitas el día de tu cumpleaños, presentando tu documento de identidad en el módulo de atención al visitante, te obsequiamos un pasaporte múltiple, para que celebres tu día con mucha Diversión con Sabor a Café.</template></category>
+<category><pattern>ADULTO</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -124,8 +118,8 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
-"<category><pattern>ADULTOS</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+*No contamos con taquillas habilitadas*</template></category>
+<category><pattern>ADULTOS</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -134,12 +128,12 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
-<category><pattern>no se quiere montar en ninguna atraccion</pattern><template>No contamos con pasaporte solo para ingreso,nuestro Parque es para toda la familia. Somos una experiencia que combina atracciones mecánicas y atractivos culturales, una mezcla de Diversión, Paisaje, Cultura, Adrenalina, Café, Arte, Arquitectura, Tradición, Gastronomía, Aventura, Alegría, Sano Esparcimiento. Una vez ingresas a nuestro Parque, tienes muchas opciones para disfrutar tu estadía.</template></category>
+*No contamos con taquillas habilitadas*</template></category>
+<category><pattern>NO SE QUIERE MONTAR EN NINGUNA ATRACCIÓN</pattern><template>No contamos con pasaporte solo para ingreso,nuestro Parque es para toda la familia. Somos una experiencia que combina atracciones mecánicas y atractivos culturales, una mezcla de Diversión, Paisaje, Cultura, Adrenalina, Café, Arte, Arquitectura, Tradición, Gastronomía, Aventura, Alegría, Sano Esparcimiento. Una vez ingresas a nuestro Parque, tienes muchas opciones para disfrutar tu estadía.</template></category>
 <category><pattern>SOLO ENTRADA </pattern><template>No contamos con pasaporte solo para ingreso,nuestro Parque es para toda la familia. Somos una experiencia que combina atracciones mecánicas y atractivos culturales, una mezcla de Diversión, Paisaje, Cultura, Adrenalina, Café, Arte, Arquitectura, Tradición, Gastronomía, Aventura, Alegría, Sano Esparcimiento. Una vez ingresas a nuestro Parque, tienes muchas opciones para disfrutar tu estadía.</template></category>
-<category><pattern>montar en absolutamente nada </pattern><template>No contamos con pasaporte solo para ingreso,nuestro Parque es para toda la familia. Somos una experiencia que combina atracciones mecánicas y atractivos culturales, una mezcla de Diversión, Paisaje, Cultura, Adrenalina, Café, Arte, Arquitectura, Tradición, Gastronomía, Aventura, Alegría, Sano Esparcimiento. Una vez ingresas a nuestro Parque, tienes muchas opciones para disfrutar tu estadía.</template></category>
+<category><pattern>MONTAR EN ABSOLUTAMENTE NADA </pattern><template>No contamos con pasaporte solo para ingreso,nuestro Parque es para toda la familia. Somos una experiencia que combina atracciones mecánicas y atractivos culturales, una mezcla de Diversión, Paisaje, Cultura, Adrenalina, Café, Arte, Arquitectura, Tradición, Gastronomía, Aventura, Alegría, Sano Esparcimiento. Una vez ingresas a nuestro Parque, tienes muchas opciones para disfrutar tu estadía.</template></category>
 <category><pattern>EN NADA </pattern><template>No contamos con pasaporte solo para ingreso,nuestro Parque es para toda la familia. Somos una experiencia que combina atracciones mecánicas y atractivos culturales, una mezcla de Diversión, Paisaje, Cultura, Adrenalina, Café, Arte, Arquitectura, Tradición, Gastronomía, Aventura, Alegría, Sano Esparcimiento. Una vez ingresas a nuestro Parque, tienes muchas opciones para disfrutar tu estadía.</template></category>
-"<category><pattern>precio</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
+<category><pattern>PRECIO</pattern><template>Te informamos que ahora nuestros pasaportes de ingreso tienen el 10% de descuento; adquiere tus pasaportes con anticipación a través de nuestro sitio web oficial para que asegures tu cupo. Único canal de venta: 
 - Múltiple: $75.000 (personas con estatura superior a 124cm.)
 - Múltiple Junior: $54.000 (personas con estatura entre 90cm y 124cm.)
 - Senior: $54.000 (personas de 70 anÌos en adelante)
@@ -148,21 +142,20 @@ Nuestros pasaportes de ingreso incluyen todas las atracciones mecánicas y atrac
 
 Ingresa aquí 
 www.parquedelcafe.co 
-*No contamos con taquillas habilitadas*</template></category>"
-<category><pattern>tarjeta </pattern><template>En la tienda virtual del Parque del Café podrás realizar tu pago con los medios habilitados para tal fin. De acuerdo a las opciones de pago escogidas por el comercio, podrás pagar a través de tarjetas de crédito Visa, American Express, Diners y MasterCard y Cuentas debito ahorro y corriente PSE.</template></category>
-<category><pattern>forma de pago</pattern><template>En la tienda virtual del Parque del Café podrás realizar tu pago con los medios habilitados para tal fin. De acuerdo a las opciones de pago escogidas por el comercio, podrás pagar a través de tarjetas de crédito Visa, American Express, Diners y MasterCard y Cuentas debito ahorro y corriente PSE.</template></category>
-<category><pattern>cafetero</pattern><template>Te informamos que el bono cafetero es exclusivo para el cafetero.</template></category>
-<category><pattern>soldado</pattern><template>Para funcionarios del Ministerio de Defensa, contamos con el 20% de descuento, para el funcionario (quien debe presentar su respectivo carnet y cédula) y 4 personas más; aplica directamente en taquilla el mismo día de tu visita.</template></category>
-<category><pattern>fuerzas militares</pattern><template>Para funcionarios del Ministerio de Defensa, contamos con el 20% de descuento, para el funcionario (quien debe presentar su respectivo carnet y cédula) y 4 personas más; aplica directamente en taquilla el mismo día de tu visita.</template></category>
-<category><pattern>policia</pattern><template>Para funcionarios del Ministerio de Defensa, contamos con el 20% de descuento, para el funcionario (quien debe presentar su respectivo carnet y cédula) y 4 personas más; aplica directamente en taquilla el mismo día de tu visita.</template></category>
-<category><pattern>convenios</pattern><template>Puedes solicitar información del convenio que indicas  al teléfono (57) (606) 7 417 417</template></category>
-<category><pattern>promoción</pattern><template>Te informamos que no realizaremos promoción por motivo de capacidad de visitantes.</template></category>
-<category><pattern>cambiar la fecha</pattern><template>La modificación de fecha es válida si se solicita antes de las 9:00am. de la fecha de visita programada inicialmente. Podrás modificar la fecha una sola vez, siempre y cuando haya disponibilidad de cupo para la nueva fecha solicitada.</template></category>
-<category><pattern>modificar fecha</pattern><template>La modificación de fecha es válida si se solicita antes de las 9:00am. de la fecha de visita programada inicialmente. Podrás modificar la fecha una sola vez, siempre y cuando haya disponibilidad de cupo para la nueva fecha solicitada.</template></category>
-<category><pattern>modificación </pattern><template>La modificación de fecha es válida si se solicita antes de las 9:00am. de la fecha de visita programada inicialmente. Podrás modificar la fecha una sola vez, siempre y cuando haya disponibilidad de cupo para la nueva fecha solicitada.</template></category>
-<category><pattern>cancelar</pattern><template>Podrás realizar la solicitud de cancelación sin cargo alguno hasta 2 días antes de la fecha de tu visita; ten en cuenta, si realizas esta solicitud después de este plazo, debes asumir un cargo del 50% por conceptos de costos administrativos.</template></category>
-<category><pattern> devolución del dinero</pattern><template>Podrás realizar la solicitud de cancelación sin cargo alguno hasta 2 días antes de la fecha de tu visita; ten en cuenta, si realizas esta solicitud después de este plazo, debes asumir un cargo del 50% por conceptos de costos administrativos.</template></category>
-<category><pattern>devolución</pattern><template>Podrás realizar la solicitud de cancelación sin cargo alguno hasta 2 días antes de la fecha de tu visita; ten en cuenta, si realizas esta solicitud después de este plazo, debes asumir un cargo del 50% por conceptos de costos administrativos.</template></category>
-<category><pattern>reintegro del dinero</pattern><template>Podrás realizar la solicitud de cancelación sin cargo alguno hasta 2 días antes de la fecha de tu visita; ten en cuenta, si realizas esta solicitud después de este plazo, debes asumir un cargo del 50% por conceptos de costos administrativos.</template></category>
-
+*No contamos con taquillas habilitadas*</template></category>
+<category><pattern>TARJETA </pattern><template>En la tienda virtual del Parque del Café podrás realizar tu pago con los medios habilitados para tal fin. De acuerdo a las opciones de pago escogidas por el comercio, podrás pagar a través de tarjetas de crédito Visa, American Express, Diners y MasterCard y Cuentas debito ahorro y corriente PSE.</template></category>
+<category><pattern>FORMA DE PAGO</pattern><template>En la tienda virtual del Parque del Café podrás realizar tu pago con los medios habilitados para tal fin. De acuerdo a las opciones de pago escogidas por el comercio, podrás pagar a través de tarjetas de crédito Visa, American Express, Diners y MasterCard y Cuentas debito ahorro y corriente PSE.</template></category>
+<category><pattern>CAFETERO</pattern><template>Te informamos que el bono cafetero es exclusivo para el cafetero.</template></category>
+<category><pattern>SOLDADO</pattern><template>Para funcionarios del Ministerio de Defensa, contamos con el 20% de descuento, para el funcionario (quien debe presentar su respectivo carnet y cédula) y 4 personas más; aplica directamente en taquilla el mismo día de tu visita.</template></category>
+<category><pattern>FUERZAS MILITARES</pattern><template>Para funcionarios del Ministerio de Defensa, contamos con el 20% de descuento, para el funcionario (quien debe presentar su respectivo carnet y cédula) y 4 personas más; aplica directamente en taquilla el mismo día de tu visita.</template></category>
+<category><pattern>POLICÍA</pattern><template>Para funcionarios del Ministerio de Defensa, contamos con el 20% de descuento, para el funcionario (quien debe presentar su respectivo carnet y cédula) y 4 personas más; aplica directamente en taquilla el mismo día de tu visita.</template></category>
+<category><pattern>CONVENIOS</pattern><template>Puedes solicitar información del convenio que indicas  al teléfono (57) (606) 7 417 417</template></category>
+<category><pattern>PROMOCIÓN</pattern><template>Te informamos que no realizaremos promoción por motivo de capacidad de visitantes.</template></category>
+<category><pattern>CAMBIAR LA FECHA</pattern><template>La modificación de fecha es válida si se solicita antes de las 9:00am. de la fecha de visita programada inicialmente. Podrás modificar la fecha una sola vez, siempre y cuando haya disponibilidad de cupo para la nueva fecha solicitada.</template></category>
+<category><pattern>MODIFICAR FECHA</pattern><template>La modificación de fecha es válida si se solicita antes de las 9:00am. de la fecha de visita programada inicialmente. Podrás modificar la fecha una sola vez, siempre y cuando haya disponibilidad de cupo para la nueva fecha solicitada.</template></category>
+<category><pattern>MODIFICACIÓN </pattern><template>La modificación de fecha es válida si se solicita antes de las 9:00am. de la fecha de visita programada inicialmente. Podrás modificar la fecha una sola vez, siempre y cuando haya disponibilidad de cupo para la nueva fecha solicitada.</template></category>
+<category><pattern>CANCELAR</pattern><template>Podrás realizar la solicitud de cancelación sin cargo alguno hasta 2 días antes de la fecha de tu visita; ten en cuenta, si realizas esta solicitud después de este plazo, debes asumir un cargo del 50% por conceptos de costos administrativos.</template></category>
+<category><pattern> DEVOLUCIÓN DEL DINERO</pattern><template>Podrás realizar la solicitud de cancelación sin cargo alguno hasta 2 días antes de la fecha de tu visita; ten en cuenta, si realizas esta solicitud después de este plazo, debes asumir un cargo del 50% por conceptos de costos administrativos.</template></category>
+<category><pattern>DEVOLUCIÓN</pattern><template>Podrás realizar la solicitud de cancelación sin cargo alguno hasta 2 días antes de la fecha de tu visita; ten en cuenta, si realizas esta solicitud después de este plazo, debes asumir un cargo del 50% por conceptos de costos administrativos.</template></category>
+<category><pattern>REINTEGRO DEL DINERO</pattern><template>Podrás realizar la solicitud de cancelación sin cargo alguno hasta 2 días antes de la fecha de tu visita; ten en cuenta, si realizas esta solicitud después de este plazo, debes asumir un cargo del 50% por conceptos de costos administrativos.</template></category>
 </aiml>
